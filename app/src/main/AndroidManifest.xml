@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.saviour">
+
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PlaceSafeOrNot"></activity>
+        <activity
+            android:name=".HiddenCamera"
+            android:label="Hidden Camera Detector"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignIn"
+            android:label="Sign IN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Emergency_contact"
+            android:label="Emergency Contact"
+            android:parentActivityName=".SOS" />
+        <activity
+            android:name=".SOS"
+            android:label="@string/title_activity_sos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Someone_staring"
+            android:label="SomeOne Staring"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

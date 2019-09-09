@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">saviour</string>
+    <string name="title_activity_sos">SOS</string>
+
+    <string name="help_text1">In any Emergency situation press power button 3 times.</string>
+    <string name="help_text2">Your location and Emergency alert message will sent to people around in the radius of 500m. </string>
+    <string name="help_text3">In case of data/wifi unavailability, Contacts in your Emergency contact list will be informed. </string>
+</resources>
